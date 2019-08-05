@@ -6,7 +6,7 @@ const firstMessage = document.querySelector('#firstMessage')
 const secondMessage = document.querySelector('#secondMessage')
 
 weatherForm.addEventListener('submit', (e) => {
-    e.preventDefault()
+    e.preventDefault() 
     const location = search.value
 
     firstMessage.textContent = "Loading..."
